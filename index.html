@@ -1,17 +1,116 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<!-- <link href="style.css" rel="stylesheet"> -->
-	</head>
-	<body>
-		<h1>Hello World</h1>
-		<p>I'm hosted with GitHub Pages.</p>
-		<!-- <script src="jquery.min.js"></script>
-		<script src="app.js"></script> -->
-		<ul>
-			<li>Home</li>
-			<li>About</li>
-		</ul>
-		<img width=75% src="pictures/moko.jpg">
-	</body>
+  <head>
+    <link href="style.css" rel="stylesheet"/>
+  </head>
+  <body>
+    
+    <div class="nav">
+      <div class="container">
+        <ul>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#eduction">Education</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="profile">
+      <div class="container">
+        <a name="profile"></a>
+        <h1>Sara Seacat</h1>
+        <p>I'm a 4th year Computer Science student at UC Berkeley.</p>
+        <p>Download my resume: <a href="sara_seacat_resume.pdf">sara_seacat_resume.pdf</a></p>
+
+      </div>
+    </div>
+    
+    <div class="skills">
+      <div class="container">
+        <a name="skills"></a>
+        <h1>Skills</h1>
+        <h2>Computer Skills</h2>
+        <ul>
+          <li>Python</li>
+          <li>Java</li>
+          <li>C</li>
+          <li>Javascript</li>
+          <li>MATLAB</li>
+          <li>Object-oriented programming</li>
+          <li>OpenMP</li>
+          <li>Robot Operating System</li>
+          <li>MIPS</li>
+          <li>JUnit</li>
+          <li>Android SDK</li>
+          <li>SSE Intrinsics</li>
+          <li>Logisim</li>
+          <li>LaTex</li>
+        </ul>
+        <h2>Other Skills</h2>
+        <ul>
+          <li>Mandarine Chinese (Written and Spoken)</li>
+          <li>InDesign</li>
+          <li>Photoshop</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="projects">
+      <div class="container">
+        <a name="projects"></a>
+        <h1>Projects</h1>
+        <h2>School</h2>
+        <ul>
+          <li>Wrote an RSA decryption function in C that optimized modular exponentiation by repeated squaring.</li>
+          <li>Worked on the Baxter robot using ROS and Python</li>
+          <li>Implemented the CPU, ALU and registers for a 2-stage pipelined processor for the Ida assembly language using Logisim.</li>
+          <li>Wrote two versions of a digit recognition program. The first optimized CPU performance by using Intel SSE intrinsics, OpenMP, register blocking and loop unrolling; the second optimized GPU performance by using the CUDA framework.</li>
+          <li>Used the Hadoop framework to implement two MapReduce jobs, the first constructs a full game tree for Connect 4 by generating all possible child game states given the parent game state; the second uses minimax to label each game state with a win, loss or tie value. Solved large game trees by using Amazon EC2.</li>
+          <li>Implemented a Java representation of the graph data structure and used that package to build a simplified version of the Unix "Make" program as well as a program that outputs the shortest route between two cities given a list of roads and cities.</li>
+          <li>Created a territory capture board game based off the game KJumpingCube using object-oriented programming in Java.</li>
+          <li>Implemented a simplified version of LaTex in Java that spaces and justifies a text file.</li>
+          <li>Built a MATLAB program that takes an image and applies various transformations on random squares of the image and times how long the user takes to click on the distorted section of the image.</li>
+        </ul>
+
+        <h2>Personal</h2>
+        <ul>
+          <li>Fixed bugs and worked on backend of the Snap! programming language using JavaScript.</li>
+          <li>Web tech for the Geological Association at Berkeley website (osf.berkeley.edu/~geologic/gab)</li>
+          <li>Created an Android application at CalHack that sends commands to an arduino which in turn commands the drone.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="education">
+      <div class="container">
+        <a name="education"></a>
+        <h1>Programming Coursework</h1>
+        <ul>
+          <li>Computer Security (CS161)</li>
+          <li>Introduction to Robotics (EE C125)</li>
+          <li>Great Ideas in Computer Architecture (Machine Structures) (CS61C)</li>
+          <li>Data Structures (CS61B)</li>
+          <li>Introduction to Computer Programming for Scientists and Engineers (E7)</li>
+          <li>Discrete Mathematics and Probability Theory (CS70)</li>
+          <li>Introduction to Digital Electronics (EE100)</li>
+          <li>Linear Algebra and Differential Equations (Math 54)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="contact">
+      <div class="container">
+        <a name="contact"></a>
+        <h1>Find me on</h1>
+        <ul>
+          <li><a href="https://github.com/sseacat">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/sseacat">LinkedIn</a></li>
+          <li><a href="mailto:sseacat@gmail.com">Email: sseacat@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </body>
 </html>

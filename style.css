@@ -1,0 +1,62 @@
+/*h1 {color: yellow;}
+.header p {color: blue;}
+.header h2 {
+	color: #9933CC;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 48px;
+}*/
+/*.jumbotron {
+	margin: 14px;
+	background-image: url('http://goo.gl/ODpi3y');
+	border: 3px solid #cc0000;
+	padding: 23px;
+	background-color: #0099cc;
+	background-color: #0099cc;
+	margin-right: auto;
+	margin-left: auto;
+}*/
+/*.skills li {
+	display: inline;
+}*/
+/*.profile {
+	height: 500px;
+	background-image: url('http://goo.gl/04j7Nn');
+}*/
+/*.profile h1 {
+	position: fixed;
+	top: 30px;
+	right: 5px;
+}*/
+.nav {
+	background-color: white;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.nav li {
+	display: inline;
+}
+.profile {
+	margin-top: 50px;
+	height: 100px;
+	/*background-color: oldlace;*/
+}
+.skills {
+	height: 500px;
+	/*background-color: dimgray;*/
+}
+.projects {
+	height: 700px;
+	/*background-color: lightcyan;*/
+}
+.education {
+	height: 250px;
+	/*background-color: seagreen;*/
+}
+.contact {
+	height: 100px;
+	/*background-color: blanchedalmond;*/
+}
